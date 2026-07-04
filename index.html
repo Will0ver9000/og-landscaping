@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OG Landscaping | Premium Lawn Care & Yard Transformation</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-green': '#0c4c31',       /* Deep luxurious logo emerald */
+                        'brand-green-dark': '#073220',  /* Ultra dark shade for high-contrast elements */
+                        'brand-gold': '#c2a15c',         /* Warm metallic gold accent */
+                        'brand-gold-light': '#e4d3aa',   /* Soft luxury gold shimmer */
+                        'brand-cream': '#f4ebd0',       /* Seamless background match to your Logo.jpg background */
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                        serif: ['Cormorant Garamond', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Montserrat:wght@400;500;700;800;900&display=swap');
+        
+        .heading-luxury { 
+            font-family: 'Cormorant Garamond', serif; 
+            font-weight: 700; 
+            letter-spacing: -0.02em; 
+        }
+
+        /* Subtle rotation animation for the premium guarantee stamp */
+        @keyframes slow-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .animate-slow-spin {
+            animation: slow-spin 25s linear infinite;
+        }
+    </style>
+</head>
+<body class="bg-brand-cream text-brand-green-dark antialiased selection:bg-brand-green selection:text-brand-cream">
+
+    <!-- STREAMING_CHUNK: Building the premium hero section and guarantee stamp... -->
+    <!-- PREMIUM HERO SECTION: Fully integrated color scheme matching Logo.jpg background -->
+    <header class="relative bg-brand-cream text-brand-green-dark py-12 md:py-20 px-6 text-center border-b border-brand-green/10 overflow-hidden">
+        
+        <!-- Floating Trust Stamp (Centered on mobile to prevent clipping/overlapping, floats elegantly on desktop) -->
+        <div class="relative mx-auto mb-6 md:absolute md:top-10 md:right-12 md:mb-0 z-20 w-32 h-32 md:w-36 md:h-36 flex items-center justify-center drop-shadow-lg">
+            <svg class="w-full h-full animate-slow-spin" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <path id="textPath" d="M 60,60 m -45,0 a 45,45 0 1,1 90,0 a 45,45 0 1,1 -90,0" />
+                </defs>
+                <circle cx="60" cy="60" r="48" fill="#0c4c31" stroke="#c2a15c" stroke-width="2" />
+                <circle cx="60" cy="60" r="41" fill="none" stroke="#c2a15c" stroke-width="1" stroke-dasharray="2,2" />
+                <!-- Premium Gold Circular Text with both modern and legacy link paths for cross-browser iOS support -->
+                <text fill="#c2a15c" font-family="'Montserrat', sans-serif" font-size="7.5" font-weight="900" letter-spacing="1.4">
+                    <textPath xlink:href="#textPath" href="#textPath" startOffset="0%">★ 100% SATISFACTION GUARANTEED ★ LICENSED & INSURED</textPath>
+                </text>
+                <!-- Central Starburst Shield Graphic -->
+                <g transform="translate(42, 42) scale(0.6)">
+                    <polygon points="30,5 37,22 55,22 41,33 46,50 30,39 14,50 19,33 5,22 23,22" fill="#c2a15c" />
+                </g>
+            </svg>
+        </div>
+
+        <div class="relative z-10 max-w-6xl mx-auto">
+            <!-- Logo Container with refined presentation -->
+            <div class="max-w-[190px] mx-auto mb-8 bg-white/40 p-4 rounded-3xl shadow-inner border border-white/20">
+                <img src="Logo.jpg" alt="OG Landscaping Logo" class="w-full h-auto object-contain mx-auto" onerror="this.src='https://placehold.co/240x240/f4ebd0/0c4c31?text=OG+Landscaping'">
+            </div>
+
+            <!-- Pre-Header Accent to establish high-end brand identity -->
+            <div class="inline-flex items-center gap-2 border border-brand-green/30 px-4 py-1.5 rounded-full mb-4 bg-white/20">
+                <span class="w-2.5 h-2.5 rounded-full bg-brand-green animate-pulse"></span>
+                <span class="text-xs font-bold text-brand-green-dark tracking-widest uppercase">Dallas Metroplex & Surrounding</span>
+            </div>
+
+            <!-- Luxury Editorial Typography -->
+            <h1 class="heading-luxury text-5xl md:text-7xl mb-6 text-brand-green-dark leading-none">
+                Bland Yard? We Make It <span class="text-brand-green italic">Pop.</span>
+            </h1>
+            
+            <p class="text-base sm:text-lg text-brand-green/90 max-w-2xl mx-auto mb-10 font-semibold leading-relaxed">
+                Experience the luxury of precision edging, elite maintenance, and massive property cleanups—engineered to keep your property flawless.
+            </p>
+            
+            <!-- Primary High-converting Call to Action in deep logo green -->
+            <a href="tel:+12148649128" class="inline-block bg-brand-green hover:bg-brand-green-dark text-brand-cream font-black text-xl px-12 py-5 rounded-full shadow-2xl transition-all transform hover:-translate-y-1 active:translate-y-0 active:scale-95">
+                📞 Free Estimate: (214) 864-9128
+            </a>
+        </div>
+    </header>
+
+    <!-- STREAMING_CHUNK: Generating the clean showcase grid with all 7 photos... -->
+    <!-- PORTFOLIO SHOWCASE: Balanced Grid Layout with completely clean transformation imagery -->
+    <section class="py-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16 max-w-xl mx-auto">
+                <h2 class="text-4xl font-extrabold text-brand-green-dark tracking-tighter">Dramatic Property Transformations</h2>
+                <div class="w-24 h-1 bg-brand-green mx-auto mt-4 rounded-full"></div>
+                <p class="text-brand-green/70 font-semibold text-sm mt-3 leading-relaxed">Proof in precision. Witness the real-world results we deliver across the metroplex.</p>
+            </div>
+            
+            <!-- Side-by-Side Comparison Panels (COMPLETELY CLEAN - NO BADGES/TEXT STAMPS) -->
+            <div class="grid gap-10 lg:grid-cols-2 mb-16">
+                <!-- Comparison Pair 1 (Swapped text to focus on Mowing & Edge) -->
+                <div class="bg-white p-2.5 rounded-[2rem] shadow-xl border border-brand-green/10 overflow-hidden group hover:shadow-2xl transition-shadow">
+                    <div class="grid grid-cols-2 gap-1.5 bg-brand-green/5 p-2 rounded-3xl">
+                        <div class="relative overflow-hidden rounded-2xl">
+                            <img src="project1.jpg" alt="Lawn Edging Before" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Grass+Mow'">
+                        </div>
+                        <div class="relative overflow-hidden rounded-2xl">
+                            <img src="project2.jpg" alt="Lawn Edging After" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Completed+Mow'">
+                        </div>
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-extrabold text-brand-green-dark text-xl tracking-tight">Precision Mowing & Edge Refresh</h3>
+                        <p class="text-brand-green/60 text-sm mt-1 font-medium">Brought wild grass back to a uniform, clean professional standard.</p>
+                    </div>
+                </div>
+
+                <!-- Comparison Pair 2 (Swapped text to focus on Overgrowth Remediation) -->
+                <div class="bg-white p-2.5 rounded-[2rem] shadow-xl border border-brand-green/10 overflow-hidden group hover:shadow-2xl transition-shadow">
+                    <div class="grid grid-cols-2 gap-1.5 bg-brand-green/5 p-2 rounded-3xl">
+                        <div class="relative overflow-hidden rounded-2xl">
+                            <img src="project3.jpg" alt="Overgrowth Remediation Before" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Remediation+1'">
+                        </div>
+                        <div class="relative overflow-hidden rounded-2xl">
+                            <img src="project4.jpg" alt="Overgrowth Remediation After" class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Completed+1'">
+                        </div>
+                    </div>
+                    <div class="p-6 text-center">
+                        <h3 class="font-extrabold text-brand-green-dark text-xl tracking-tight">Full Overgrowth Remediation</h3>
+                        <p class="text-brand-green/60 text-sm mt-1 font-medium">Restored definition and health to a neglected, wild property line.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Completed Spotlight Grid (Projects 5-7) -->
+            <div class="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto border-t border-brand-green/15 pt-16">
+                <div class="bg-white p-2.5 rounded-3xl shadow-lg border border-brand-green/10 group overflow-hidden">
+                    <img src="project5.jpg" alt="Completed Work Spotlight 5" class="w-full h-60 object-cover rounded-2xl shadow-md transition-transform duration-500 group-hover:scale-105" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Standard+Maintenance'">
+                </div>
+                <div class="bg-white p-2.5 rounded-3xl shadow-lg border border-brand-green/10 group overflow-hidden scale-100 md:scale-105">
+                    <img src="project6.jpg" alt="Completed Work Spotlight 6" class="w-full h-60 object-cover rounded-2xl shadow-md transition-transform duration-500 group-hover:scale-105" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Clean+Lawn+Lines'">
+                </div>
+                <div class="bg-white p-2.5 rounded-3xl shadow-lg border border-brand-green/10 group overflow-hidden">
+                    <img src="project7.jpg" alt="Completed Work Spotlight 7" class="w-full h-60 object-cover rounded-2xl shadow-md transition-transform duration-500 group-hover:scale-105" onerror="this.src='https://placehold.co/400x300/ebdcb4/0c4c31?text=Custom+Spotlight'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STREAMING_CHUNK: Integrating the cinematic live action video player cards... -->
+    <!-- LIVE ACTION SERVICE VIDEOS: Cinematic Dark Emerald Tone -->
+    <section class="bg-gradient-to-b from-brand-green-dark to-[#041a11] text-brand-cream py-24 px-6 border-y border-brand-green">
+        <div class="max-w-7xl mx-auto relative">
+            
+            <!-- Section Header -->
+            <div class="text-center mb-16 max-w-xl mx-auto relative z-10">
+                <h2 class="text-4xl font-extrabold tracking-tighter">The Crew In Action</h2>
+                <div class="w-24 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
+                <p class="text-brand-cream/70 font-semibold text-sm mt-3 leading-relaxed">Real work. Real power. Watch how we meticulously restore and maintain Dallas properties.</p>
+            </div>
+            
+            <!-- Cinematic Video Grid -->
+            <div class="grid gap-8 md:grid-cols-3 mb-16 relative z-10">
+                <!-- Video 1 -->
+                <div class="bg-white/5 p-4 rounded-[2rem] border border-white/10 shadow-inner group hover:bg-white/10 transition-colors">
+                    <video src="video1.mp4" controls class="w-full h-80 object-cover rounded-2xl bg-black shadow-lg" preload="metadata"></video>
+                    <div class="p-3 text-center">
+                        <p class="text-xs font-bold text-brand-gold mt-2 text-center uppercase tracking-widest">Heavy Duty Mower Demo</p>
+                    </div>
+                </div>
+                <!-- Video 2 -->
+                <div class="bg-white/5 p-4 rounded-[2rem] border border-white/10 shadow-inner group hover:bg-white/10 transition-colors">
+                    <video src="video2.mp4" controls class="w-full h-80 object-cover rounded-2xl bg-black shadow-lg" preload="metadata"></video>
+                    <div class="p-3 text-center">
+                        <p class="text-xs font-bold text-brand-gold mt-2 text-center uppercase tracking-widest">Line Maintenance 2</p>
+                    </div>
+                </div>
+                <!-- Video 3 -->
+                <div class="bg-white/5 p-4 rounded-[2rem] border border-white/10 shadow-inner group hover:bg-white/10 transition-colors">
+                    <video src="video3.mp4" controls class="w-full h-80 object-cover rounded-2xl bg-black shadow-lg" preload="metadata"></video>
+                    <div class="p-3 text-center">
+                        <p class="text-xs font-bold text-brand-gold mt-2 text-center uppercase tracking-widest">Property Finish 3</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Background Decorative Accent -->
+            <div class="absolute inset-0 z-0 opacity-[0.03] bg-[radial-gradient(#f4ebd0_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        </div>
+    </section>
+
+    <!-- STREAMING_CHUNK: Styling the pricing matrix tables... -->
+    <!-- PRICING MATRIX: Clean, Modernized, High-End Card Design -->
+    <section class="max-w-5xl mx-auto py-24 px-6">
+        <div class="text-center mb-16 max-w-xl mx-auto">
+            <h2 class="text-4xl font-extrabold text-brand-green-dark tracking-tighter">Transparent Service Pricing</h2>
+            <div class="w-24 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
+            <p class="text-brand-green/70 font-semibold text-sm mt-3 leading-relaxed">No surprises. Know exactly what you pay for premium professional yard care.</p>
+        </div>
+        
+        <div class="grid gap-8 md:grid-cols-2">
+            <!-- Mowing Tiers -->
+            <div class="bg-white p-8 rounded-[2rem] shadow-xl border border-brand-green/10 hover:border-brand-green transition-colors duration-300">
+                <h3 class="text-2xl font-extrabold text-brand-green-dark mb-6 border-b border-brand-green/5 pb-4 flex items-center justify-between gap-4">
+                    <span>Lawn Maintenance</span>
+                    <span class="text-xs bg-brand-green text-brand-cream px-3.5 py-1 rounded-full font-bold uppercase tracking-wider">By Yard Size</span>
+                </h3>
+                <ul class="space-y-4 font-semibold text-brand-green-dark/90 text-base">
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Small Condo Yard</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$25 & up</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Basic Average Yard</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$40 – $50</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Medium Yard</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$55 – $65</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Large Yard</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$75 & up</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Acre Property</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$125 & up</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Custom Add-Ons -->
+            <div class="bg-white p-8 rounded-[2rem] shadow-xl border border-brand-green/10 hover:border-brand-green transition-colors duration-300">
+                <h3 class="text-2xl font-extrabold text-brand-green-dark mb-6 border-b border-brand-green/5 pb-4 flex items-center justify-between gap-4">
+                    <span>Precision Extras</span>
+                    <span class="text-xs bg-brand-gold text-brand-green-dark px-3.5 py-1 rounded-full font-bold uppercase tracking-wider">Add-Ons</span>
+                </h3>
+                <ul class="space-y-4 font-semibold text-brand-green-dark/90 text-base">
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Weeding Services</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$20 & up</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Precision Edging Refresh</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$15 & up</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Premium Fertilizer Treatment</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">$45 & up</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Detailed Bush Trimming</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">Custom Quote</span>
+                    </li>
+                    <li class="flex justify-between items-center bg-brand-green/5 px-4 py-3 rounded-xl border border-brand-green/5">
+                        <span>Leaf Clean Up & Removal</span> 
+                        <span class="font-extrabold text-brand-green bg-brand-green/10 px-3 py-1 rounded-lg">Custom Quote</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- STREAMING_CHUNK: Designing the new premium review section and dynamic comment bar... -->
+    <!-- REVIEWS & INTERACTIVE COMMENT BAR: Luxury Social Proof Zone -->
+    <section class="bg-white/40 border-t border-brand-green/10 py-24 px-6">
+        <div class="max-w-4xl mx-auto">
+            
+            <div class="text-center mb-16">
+                <h2 class="heading-luxury text-4xl md:text-5xl text-brand-green-dark">What Our Clients Say</h2>
+                <p class="text-brand-green/70 font-bold text-sm tracking-wider uppercase mt-2">Verified Dallas Metro Reviews</p>
+                <div class="w-16 h-1 bg-brand-gold mx-auto mt-4 rounded-full"></div>
+            </div>
+
+            <!-- INTERACTIVE COMMENT BAR WIDGET -->
+            <div class="bg-white border border-brand-green/10 rounded-[2rem] p-6 md:p-8 shadow-xl mb-12">
+                <h3 class="text-xl font-extrabold text-brand-green-dark mb-4 tracking-tight">Leave a Review & Post Directly</h3>
+                
+                <form id="reviewForm" onsubmit="handleReviewSubmit(event)" class="space-y-4">
+                    <!-- Rating selector & Name input grouped responsive row -->
+                    <div class="grid gap-4 md:grid-cols-2">
+                        <!-- Left: Star Interactive Selector -->
+                        <div class="bg-brand-cream/30 border border-brand-green/10 rounded-2xl p-4 flex flex-col justify-center">
+                            <span class="text-xs font-bold text-brand-green/70 uppercase tracking-wider mb-2">Select Rating</span>
+                            <div class="flex items-center gap-2">
+                                <input type="hidden" id="selectedStars" value="5">
+                                <button type="button" onclick="setRating(1)" class="star-btn text-2xl text-brand-gold hover:scale-110 transition-transform">★</button>
+                                <button type="button" onclick="setRating(2)" class="star-btn text-2xl text-brand-gold hover:scale-110 transition-transform">★</button>
+                                <button type="button" onclick="setRating(3)" class="star-btn text-2xl text-brand-gold hover:scale-110 transition-transform">★</button>
+                                <button type="button" onclick="setRating(4)" class="star-btn text-2xl text-brand-gold hover:scale-110 transition-transform">★</button>
+                                <button type="button" onclick="setRating(5)" class="star-btn text-2xl text-brand-gold hover:scale-110 transition-transform">★</button>
+                                <span id="ratingDisplay" class="text-sm font-black text-brand-green-dark ml-2">5.0 / 5.0</span>
+                            </div>
+                        </div>
+
+                        <!-- Right: Full Name Input -->
+                        <div class="flex flex-col">
+                            <label for="reviewerName" class="text-xs font-bold text-brand-green/70 uppercase tracking-wider mb-1.5 pl-1">Your Name</label>
+                            <input type="text" id="reviewerName" placeholder="e.g. Travis M." required class="w-full bg-brand-cream/30 border border-brand-green/10 focus:border-brand-green focus:ring-1 focus:ring-brand-green focus:outline-none rounded-2xl px-4 py-3.5 font-bold text-brand-green-dark placeholder:text-brand-green/40 transition-colors">
+                        </div>
+                    </div>
+
+                    <!-- Review Message Bar -->
+                    <div class="flex flex-col">
+                        <label for="reviewMessage" class="text-xs font-bold text-brand-green/70 uppercase tracking-wider mb-1.5 pl-1">Your Review / Comment</label>
+                        <div class="relative flex flex-col sm:flex-row gap-2">
+                            <input type="text" id="reviewMessage" placeholder="Highly recommend Deric! Quick service and perfectly edged grass..." required class="w-full bg-brand-cream/30 border border-brand-green/10 focus:border-brand-green focus:ring-1 focus:ring-brand-green focus:outline-none rounded-2xl px-4 py-3.5 font-medium text-brand-green-dark placeholder:text-brand-green/40 transition-colors">
+                            <button type="submit" class="sm:w-auto w-full bg-brand-green hover:bg-brand-green-dark text-brand-cream font-extrabold px-8 py-3.5 rounded-2xl shadow-md transition-all active:scale-95 flex items-center justify-center gap-2 shrink-0">
+                                Post Review 🚀
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Inline Success Message Banner -->
+                    <div id="successBanner" class="hidden flex items-center gap-2 bg-emerald-50 border border-emerald-200 text-emerald-800 rounded-xl p-3 text-xs font-bold animate-fadeIn">
+                        <svg class="w-4 h-4 text-emerald-600 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                        <span>Review posted successfully! It has been added to our live stream below.</span>
+                    </div>
+                </form>
+            </div>
+
+            <!-- REVIEWS FEED / LIST -->
+            <div id="reviewsStream" class="space-y-6">
+                <!-- Fallback/Preloaded Luxury Reviews will be rendered here dynamically, alongside user-submitted ones -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- STREAMING_CHUNK: Setting up the footer and copyright line... -->
+    <!-- FOOTER ZONE -->
+    <footer class="bg-[#052115] text-brand-cream/60 py-16 px-6 text-center border-t-2 border-brand-gold/15">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="heading-luxury text-3xl text-brand-cream mb-2 leading-none">Ready to Make Your Yard Pop?</h2>
+            <p class="mb-8 font-semibold text-sm text-brand-cream/50">Contact Deric at OG Landscaping today to lock in your priority service slot.</p>
+            
+            <div class="inline-flex flex-col sm:flex-row gap-4 sm:gap-8 justify-center items-center mb-10 font-bold text-brand-cream bg-white/5 p-4 rounded-3xl border border-white/5">
+                <p>📧 <a href="mailto:ogpropes@gmail.com" class="text-brand-gold hover:text-brand-gold-light transition">ogpropes@gmail.com</a></p>
+                <span class="hidden sm:inline text-brand-gold/30">|</span>
+                <p>📱 <a href="tel:+12148649128" class="text-brand-gold hover:text-brand-gold-light transition">+1 (214) 864-9128</a></p>
+            </div>
+
+            <p class="text-xs text-brand-cream/40 font-bold tracking-widest uppercase">© 2026 OG Landscaping | OG Certified. Powered by Will0ver9000 Engine.</p>
+        </div>
+    </footer>
+
+    <!-- PERSISTENT SCROLLING FLOATING CALL BUBBLE (ALL DEVICES) -->
+    <div class="fixed bottom-6 right-6 z-50 drop-shadow-2xl">
+        <a href="tel:+12148649128" class="flex items-center gap-2 bg-brand-green hover:bg-brand-green-dark text-brand-cream font-black px-6 py-4 rounded-full border-2 border-brand-gold shadow-xl transition-transform transform hover:scale-105 active:scale-95">
+            <span class="animate-bounce">📞</span> Call Deric Now
+        </a>
+    </div>
+
+    <!-- STREAMING_CHUNK: Writing interactive logic for star rating, local storage, and review rendering... -->
+    <script>
+        // Pre-loaded premium reviews to populate the page initially
+        const defaultReviews = [
+            {
+                name: "Sarah T. — Richardson, TX",
+                stars: 5,
+                text: "Deric completely salvaged our property. The overgrowth remediation was worth every penny. Our lawn line borders have never looked so sharp!"
+            },
+            {
+                name: "Marcus K. — Dallas, TX",
+                stars: 5,
+                text: "Fast, incredibly detailed, and highly professional. You can't match their lawn definition. Finally, a service that understands clean edges."
+            }
+        ];
+
+        // Star rating setup
+        "use strict";
+        function setRating(rating) {
+            document.getElementById('selectedStars').value = rating;
+            document.getElementById('ratingDisplay').innerText = rating + '.0 / 5.0';
+            
+            // Highlight star buttons visually
+            const stars = document.querySelectorAll('.star-btn');
+            stars.forEach((star, idx) => {
+                if (idx < rating) {
+                    star.classList.add('text-brand-gold');
+                    star.classList.remove('text-brand-green-dark/25');
+                } else {
+                    star.classList.remove('text-brand-gold');
+                    star.classList.add('text-brand-green-dark/25');
+                }
+            });
+        }
+
+        // Render reviews to the domestic container
+        function renderReviews() {
+            const stream = document.getElementById('reviewsStream');
+            if(!stream) return;
+            stream.innerHTML = ''; // Reset container
+
+            // Retrieve saved user-reviews from localStorage
+            let storedReviews = [];
+            try {
+                storedReviews = JSON.parse(localStorage.getItem('ogReviews')) || [];
+            } catch (e) {
+                storedReviews = [];
+            }
+
+            // Combine default mock reviews and user-entered reviews (newest user reviews sit at top)
+            const allReviews = [...storedReviews, ...defaultReviews];
+
+            allReviews.forEach(rev => {
+                const reviewCard = document.createElement('div');
+                reviewCard.className = 'bg-white p-6 md:p-8 rounded-[2rem] border border-brand-green/10 shadow-lg relative overflow-hidden transition-all duration-300 hover:shadow-xl';
+                
+                // Construct star icons string
+                let starString = '';
+                for (let i = 0; i < 5; i++) {
+                    if (i < rev.stars) {
+                        starString += '<span class="text-brand-gold">★</span>';
+                    } else {
+                        starString += '<span class="text-brand-green-dark/20">★</span>';
+                    }
+                }
+
+                reviewCard.innerHTML = `
+                    <div class="flex items-center gap-1.5 mb-3 text-lg leading-none">
+                        ${starString}
+                    </div>
+                    <blockquote class="heading-luxury text-xl md:text-2xl text-brand-green-dark italic mb-4 leading-relaxed">
+                        "${rev.text}"
+                    </blockquote>
+                    <p class="text-xs font-extrabold tracking-widest text-brand-green/70 uppercase">
+                        — ${rev.name}
+                    </p>
+                `;
+                stream.appendChild(reviewCard);
+            });
+        }
+
+        // Handle interactive submission event
+        function handleReviewSubmit(event) {
+            event.preventDefault();
+
+            const nameInput = document.getElementById('reviewerName');
+            const messageInput = document.getElementById('reviewMessage');
+            const starsInput = document.getElementById('selectedStars');
+
+            const newReview = {
+                name: nameInput.value.trim(),
+                stars: parseInt(starsInput.value),
+                text: messageInput.value.trim()
+            };
+
+            // Grab existing arrays
+            let currentReviews = [];
+            try {
+                currentReviews = JSON.parse(localStorage.getItem('ogReviews')) || [];
+            } catch (e) {
+                currentReviews = [];
+            }
+
+            // Unshift new review to sit at the absolute top of submissions
+            currentReviews.unshift(newReview);
+            localStorage.setItem('ogReviews', JSON.stringify(currentReviews));
+
+            // Clear inputs
+            nameInput.value = '';
+            messageInput.value = '';
+            setRating(5); // Reset star selector to default five stars
+
+            // Re-render
+            renderReviews();
+
+            // Display success notification
+            const success = document.getElementById('successBanner');
+            success.classList.remove('hidden');
+            setTimeout(() => {
+                success.classList.add('hidden');
+            }, 6000);
+        }
+
+        // Initialize state safely on DOM load
+        document.addEventListener('DOMContentLoaded', function() {
+            setRating(5);
+            renderReviews();
+        });
+    </script>
+
+</body>
+</html>
